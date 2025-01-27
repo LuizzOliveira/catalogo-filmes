@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    cursor:default;
+    background-color: #1e1d1d;
+    font-size: 1rem;
+
+    
+}
+h1{
+    text-align: center;
+    padding: 0px;
+}
+
+.container{
+    max-width: 60%;    
+    margin: 0 auto;
+    background-color: #e8f0fe;
+    padding: 0px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition: 1s;
+}
+
+.descricao{
+    align-items: center;
+    max-width: 530px;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.acao {
+    cursor:pointer;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    padding-top: 10px;
+    gap:  4px;
+
+    a {
+        text-decoration: unset;
+        color: unset;
+    }
+
+    button {
+        cursor:pointer;
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        border: 0;
+        background-color: unset;
+        
+        
+
+        &.add{
+            background-color: #1877f2;
+            color: #fff;
+            border-radius: 5px;
+            transition: 1s;
+            text-align: center;
+            margin-bottom: 5px;
+
+        }
+
+        &.voltar{
+            background-color: #1877f2;
+            border-radius: 5px;
+            transition: 1s;
+            color: #fff;
+            margin-bottom: 0;
+            padding: 0 1px;
+            font-size: 0.8rem;
+        }
+        &.salvar{
+            background-color: #36a420;
+            color: #fff;
+            border-radius: 5px;
+            margin-left: 5px;
+            padding: 0 1px;
+            font-size: 0.8rem;
+        }
+
+        &:hover {
+            scale: 1.1;
+        }
+        
+    }
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    thead,th, tbody,tr,td {
+        border-color: unset ;
+        border-style: solid;
+        border-width: 0;
+
+    }
+    th,td {
+        border-bottom-width: 0px;
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    tbody  {
+        tr{
+            /* &:nth-child(even) {
+                background-color: #cdd0f370;
+            } */
+
+            &:hover {
+                background-color:#e8f0fe;
+            }
+
+        }
+    }
+
+}
+
+.notificacao {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 16px;
+
+    &.sucesso {
+        background-color: #4caf50;
+    }
+
+    &.erro {
+        background-color: #ff4d4d;
+     }
+}
+
+.img{
+    display:  block;
+    cursor:pointer;
+    margin: auto;width:100px;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+    width: 130px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.form {
+    background-color: #fff;
+    padding: 0px;
+    .form-content {
+        .input-group {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                font-weight: bold;
+            }
+            &.required {
+                label:after {
+                    content: "*";
+                    color: #ff4d4d;
+                }
+            } 
+            
+        }
+    }
+}
+
+input{
+    margin:5px;
+}
