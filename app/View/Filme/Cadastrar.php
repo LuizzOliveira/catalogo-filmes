@@ -169,10 +169,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                 <button class="voltar" >
 
-                    <span class="material-symbols-outlined">
-                        arrow_back
-                    </span>
-
                     <span>Voltar</span>
 
                 </button>

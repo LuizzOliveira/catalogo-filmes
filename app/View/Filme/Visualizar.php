@@ -41,9 +41,6 @@ $filme = $filmeModel->findById($id);
             <div class="acao">
             <a href="Listar.php">
                 <button class="voltar">
-                    <span class="material-symbols-outlined">
-                        arrow_back
-                    </span>
                     <span>Voltar</span>
                 </button>
             </a>
