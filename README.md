@@ -1,5 +1,4 @@
-# Banco de dados
-
+# Projeto Galeria de Filmes
 ## Aula 1
 
 Criação do banco de dados, tabela filme e classe Model para lidar com a tabela filme no PHP.
