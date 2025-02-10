@@ -89,7 +89,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 
             }
         ?>
-        <!-- <h2>Cadastro de Filme</h2> -->
 
         <form class="form" action="Cadastrar.php" method="POST">
                 
@@ -159,8 +158,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
                 </div>
 
-                
-                
         </form>
 
         <div class="form-action acao">
